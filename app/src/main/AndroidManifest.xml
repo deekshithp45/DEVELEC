@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inspire.user1.develec">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome_Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Phone_Auth"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".HomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WebParts"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ElecParts"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Websub_parts"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Contents_parts"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cardparts"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Elecsub_parts"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".rateus"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".About_US"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+
+</manifest>

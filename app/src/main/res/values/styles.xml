@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/CustomOverflowButton</item>
+
+    </style>
+
+    <style name="CustomOverflowButton" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:src">@drawable/ic_action_list</item>
+        <item name="android:layout_width">0dp</item>
+
+    </style>
+
+</resources>

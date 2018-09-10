@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/rateus"
+        android:title="Rate Us"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/aboutus"
+        android:title="About Us"
+        app:showAsAction="never"/>
+
+
+
+    <item
+        android:title="share_icon"
+        android:id="@+id/share_icon"
+        android:icon="@mipmap/ic_share"
+        app:showAsAction="always"/>
+
+</menu>
